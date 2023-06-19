@@ -7,15 +7,6 @@ const ClientLogos: React.FC = () => (
     <SliderContainer className="" contentWidth={1290} initialOffsetX={0}>
       <SliderItem width={150}>
         <Image
-          src="/assets/trustedby/coinbase.png"
-          width={150}
-          height={50}
-          alt="hi"
-          objectFit="contain"
-        />
-      </SliderItem>
-      <SliderItem width={150}>
-        <Image
           src="/assets/trustedby/exodus.png"
           width={150}
           height={50}
@@ -54,6 +45,15 @@ const ClientLogos: React.FC = () => (
     <br />
     <br />
     <SliderContainer className="" contentWidth={1290} initialOffsetX={100}>
+      <SliderItem width={150}>
+        <Image
+          src="/assets/trustedby/coinbase.png"
+          width={150}
+          height={50}
+          alt="hi"
+          objectFit="contain"
+        />
+      </SliderItem>
       <SliderItem width={150}>
         <Image
           src="/assets/trustedby/rainbow.png"

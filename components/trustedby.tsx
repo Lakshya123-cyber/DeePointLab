@@ -10,7 +10,7 @@ const TrustedBy: React.FC = () => (
     <div className="flex-1"></div>
     <div className="flex flex-col justify-center items-center">
       <h3 className="text-xl mb-10 font-bold text-center">
-        <span className="whitespace-nowrap">Trusted By</span>{" "}
+        <span className="whitespace-nowrap">Trusted by</span>{" "}
         <span className="whitespace-nowrap">some of the businesses</span>
       </h3>
       <ClientLogos />
