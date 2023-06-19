@@ -1,0 +1,26 @@
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+
+interface Props {
+  id: string;
+  name: string;
+  socialId: string;
+}
+
+const Member: React.FC<Props> = ({ id, name, socialId }) => (
+  <div>
+    <Image
+      src={`/assets/team/faces_${id}.svg`}
+      alt={name}
+      width={1366}
+      height={1555}
+    />
+    <div className="text-2xl xl:text-3xl">{name}</div>
+    <div className="text-xl">
+      <h2>{socialId}</h2>
+    </div>
+  </div>
+);
+
+export default Member;
